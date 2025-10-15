@@ -5,8 +5,8 @@ public class Animal {
     public Animal(String name, int age) {
         this.name = name;
         this.age = age;
+        this.makeSound();
     }
-
     public void eat() {
         System.out.println(name + " is eating...");
     }
