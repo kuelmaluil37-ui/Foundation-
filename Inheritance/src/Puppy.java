@@ -8,7 +8,7 @@ public class Puppy extends Dog {
 
     @Override
     public void makeSound() {
-        System.out.println(name + " the puppy says: Yip Yip!");
+        System.out.println(name + " the puppy says: Yip Yip! keep yipping");
     }
 
     public void play() {
