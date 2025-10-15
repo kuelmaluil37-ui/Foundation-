@@ -1,7 +1,7 @@
 public class Animal {
     protected String name;
     protected int age;
-
+    String Name;
     public Animal(String name, int age) {
         this.name = name;
         this.age = age;
