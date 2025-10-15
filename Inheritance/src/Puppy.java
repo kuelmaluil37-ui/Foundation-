@@ -1,6 +1,6 @@
 public class Puppy extends Dog {
     private String Toy;
-
+    Keep yipping;
     public Puppy(String name, int age, String breed, String favoriteToy) {
         super(name, age, breed);
         this.Toy = Toy;
