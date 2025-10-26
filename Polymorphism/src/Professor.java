@@ -10,7 +10,7 @@ public class Professor extends University {
 
     @Override
     public void performAction() {
-        System.out.println("Professor action: " + name + " is teaching " + subject + " to students");
+        System.out.println("Professor action: " + name + " is teaching " + subject + " to students" professor);
     }
 
 
