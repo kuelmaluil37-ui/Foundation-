@@ -21,7 +21,7 @@ public class Main {
         Administration Admin = new Administration ("Johnson", "ADM001", "HR", "Manager");
         Professor professor = new Professor("Dr.Johnson", "PROF003", "Computer Science");
         Student student = new Student("James", "STU005", "Engineering", 3);
-
+        CourseUnits;
         Admin.performAction();
         professor.performAction();
         student.performAction();
