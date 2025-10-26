@@ -3,7 +3,7 @@ public class Administration extends University {
     private String department;
     private String role;
 
-    public Administration(String name, String id, String department, String role) {
+    public Administration(String name, String id, String department, String role, myrole) {
         super(name, id);
         this.department = department;
         this.role = role;
