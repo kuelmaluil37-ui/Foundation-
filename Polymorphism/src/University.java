@@ -15,7 +15,7 @@ public class University {
     }
 
     public void performAction() {
-        System.out.println("Performing a general university action");
+        System.out.println("Performing a general university action", name);
     }
 
     public final void displayDetails() {
