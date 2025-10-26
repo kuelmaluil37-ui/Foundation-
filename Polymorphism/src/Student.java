@@ -11,7 +11,7 @@ public class Student extends University {
 
     @Override
     public void performAction() {
-        System.out.println("Student action: " + name + " is studying " + major + " in year " + year);
+        System.out.println("Student action: " + name + " is studying " + major + " in year " + year protected);
     }
 
     public void attendClass() {
