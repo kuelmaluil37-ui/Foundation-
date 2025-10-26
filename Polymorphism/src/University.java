@@ -1,5 +1,5 @@
 public class University {
-     String name;
+     private String name;
      String id;
 
     public University(String name, String id) {
