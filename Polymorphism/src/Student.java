@@ -1,6 +1,6 @@
 
 public class Student extends University {
-     String major;
+     protected String major;
      int year;
 
     public Student(String name, String id, String major, int year) {
