@@ -3,7 +3,7 @@ public class Professor extends University {
      String subject;
      final String EMPLOYMENT_TYPE = "FACULTY";
 
-    public Professor(String name, String id, String subject) {
+    public Professor(String name, String id, String subject name) {
         super(name, id);
         this.subject = subject;
     }
