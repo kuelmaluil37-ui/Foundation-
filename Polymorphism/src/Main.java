@@ -1,8 +1,8 @@
 public class Main {
-
     public static void demonstrateAction(University entity) {
         System.out.print("Entity type: " + entity.getClass().getSimpleName() + " -> ");
         entity.performAction();
+        this.getClass()
 
         if (entity instanceof University) {
             System.out.println("This is an Administration staff member");
