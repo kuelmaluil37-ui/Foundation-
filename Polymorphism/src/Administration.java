@@ -11,7 +11,7 @@ public class Administration extends University {
 
     @Override
     public void performAction() {
-        System.out.println("Administration action: " + name + " is managing " + department + " department as " + role);
+        System.out.println("Administration action: " + name + " is managing " + department + " department as " + role, myrole);
     }
 
     public void manageResources() {
