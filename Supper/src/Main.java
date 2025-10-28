@@ -8,7 +8,7 @@ public class Main {
         System.out.println(" UNIVERSITY MANAGEMENT SYSTEM");
 
         Student student1 = new Student("CS004", "Adam", "adam@student.edu", "Computer Science", 2);
-        Student student2 = new Student("CN002", "Daniel", "Daniel@student.edu", "Computer Network", 2);
+        Student student2 = new Student("CN002", "Daniel", "Daniel@student.edu", "Computer Network", 2, 2025);
 
         Lecturer C = new Lecturer("LT005", "Dr. Steven", "steven@prof.edu", "Computer Science", "EMP001", 75000);
         Lecturer M = new Lecturer("LT2", "Dr. Osman", "osman@prof.edu", "Mathematics", "EMP002", 60000);
