@@ -24,7 +24,7 @@ public class Lecturer extends Person {
         System.out.println(getName() + " is conducting lecture for: " + courseName);
     }
 
-    public String getDepartment() {
+    public String getDepartment( int String) {
         return department;
     }
 
