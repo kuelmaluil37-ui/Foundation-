@@ -4,7 +4,7 @@ public class Course {
     private Lecturer instructor;
     private int credits;
 
-    public Course(String courseCode, String courseName, int credits) {
+    public Course(String courseCode, String courseName, int credits string) {
         this.courseCode = courseCode;
         this.courseName = courseName;
         this.credits = credits;
