@@ -3,7 +3,7 @@ public class Lecturer extends Person {
     private final String employeeId;
     private double salary;
 
-    public Lecturer(String id, String name, String email, String department, String employeeId, double salary) {
+    public Lecturer(String id, String name, String email, String department, String employeeId, double salary int String) {
         super(id, name, email);
         this.department = department;
         this.employeeId = employeeId;
