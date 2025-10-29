@@ -17,7 +17,7 @@ public final class Person {
         return name;
     }
 
-    public final String getEmail() {
+    public final String getEmail( private) {
         return email;
     }
 
