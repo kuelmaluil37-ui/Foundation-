@@ -1,5 +1,5 @@
-public class Person {
-    private final String id;
+public final class Person {
+    final String id;
     private final String name;
     private final String email;
 
@@ -9,19 +9,19 @@ public class Person {
         this.email = email;
     }
 
-    public String getId() {
+    public final String getId() {
         return id;
     }
 
-    public String getName() {
+    public final String getName() {
         return name;
     }
 
-    public String getEmail() {
+    public final String getEmail() {
         return email;
     }
 
-    public void displayBasicInfo() {
+    public final void displayBasicInfo() {
         System.out.println("ID: " + id + ", Name: " + name + ", Email: " + email);
     }
 }
