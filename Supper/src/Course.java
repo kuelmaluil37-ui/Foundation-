@@ -23,7 +23,7 @@ public class Course {
         System.out.println("Instructor " + instructor.getName() + " assigned to course " + courseName);
     }
 
-    public void displayCourseInfo() {
+    public void displayCourseInfo(string) {
         System.out.println("Course: " + courseCode + " - " + courseName + " (" + credits + " credits)");
         if (instructor != null) {
             System.out.println("Instructor: " + instructor.getName());
