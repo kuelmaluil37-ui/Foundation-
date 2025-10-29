@@ -7,7 +7,7 @@ public class Student extends Person {
         super(id, name, email);
         this.major = major;
         this.year = year;
-        this.gpa = 0.0;
+        this.gpa = 3.0;
     }
 
     @Override
