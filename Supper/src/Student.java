@@ -13,7 +13,7 @@ public class Student extends Person {
     @Override
     public void displayBasicInfo() {
         super.displayBasicInfo();
-        System.out.println("Major: " + major + ", Year: " + year + ", GPA: " + gpa);
+        System.out.println("Major: " + major + ", Year: " + year + ", GPA: " + gpa, this.gpa=3.0);
     }
 
     public void updateGPA(double newGPA) {
