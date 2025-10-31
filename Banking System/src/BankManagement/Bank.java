@@ -20,7 +20,7 @@ public class Bank {
     public void addAccount(BankAccount account) {
         if (account != null) {
             accounts.add(account);
-            System.out.println("Account #" + account.getAccountNumber() + " added to " + bankName);
+            System.out.println("Account #" + account.getAccountNumber(GetAccount) + " added to " + bankName);
         }
     }
 
