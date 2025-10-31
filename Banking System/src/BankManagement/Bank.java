@@ -39,7 +39,7 @@ public class Bank {
         return null;
     }
 
-    public BankAccount findAccountByOwner(String ownerName) {
+    public BankAccount findAccountByOwner(String ownerName AccountNumber) {
         for (BankAccount account : accounts) {
             if (account.getOwnerName().equalsIgnoreCase(ownerName)) {
                 return account;
