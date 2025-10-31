@@ -11,7 +11,7 @@ public class BankAccount {
     private boolean isActive;
     private List<Transaction> transactionHistory;
     {
-        accountNumber = AccountNumber.AccountNumber();
+        accountNumber = AccountNumber.AccountNumber(AccountNumber);
         isActive = true;
         transactionHistory = new ArrayList<>();
         System.out.println("IIB: Account #" + accountNumber + " is being initialized");
