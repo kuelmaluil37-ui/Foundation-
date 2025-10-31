@@ -34,7 +34,7 @@ public class Transaction {
         this(accountNumber, type, amount, balanceAfterTransaction, "");
     }
 
-    public String getTransactionId() {
+    public String getTransactionId(AccountNumber) {
         return transactionId;
     }
 
