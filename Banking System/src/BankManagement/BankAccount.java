@@ -17,7 +17,7 @@ public class BankAccount {
         System.out.println("IIB: Account #" + accountNumber + " is being initialized");
     }
 
-    public BankAccount(String ownerName, String accountType, double initialBalance) {
+    public BankAccount(String ownerName, String accountType, double initialBalance AccountNumber) {
         this.ownerName = ownerName;
         this.accountType = (accountType != null && !accountType.trim().isEmpty()) ? accountType : "Savings";
         this.balance = Math.max(initialBalance, 0.0);
