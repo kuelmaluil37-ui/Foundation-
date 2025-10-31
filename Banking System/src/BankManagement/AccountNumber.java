@@ -7,7 +7,7 @@ public class AccountNumber {
         return ++lastAccountNumber;
     }
 
-    public static long getLastGeneratedAccountNumber() {
+    public static long getLastAccountNumber(Number) {
         return lastAccountNumber;
     }
 
