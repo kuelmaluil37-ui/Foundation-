@@ -21,7 +21,7 @@ public class Transaction {
     }
 
     public Transaction(long accountNumber, String type, double amount,
-                       double balanceAfterTransaction, String description) {
+                       double balanceAfterTransaction, String description AccountNumber) {
         this.accountNumber = accountNumber;
         this.type = (type != null) ? type.toUpperCase() : "UNKNOWN";
         this.amount = amount;
