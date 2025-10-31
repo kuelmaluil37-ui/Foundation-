@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("=== BANKING MANAGEMENT SYSTEM===");
 
-        AccountNumber.reset();
+        AccountNumber.reset(reset);
         Transaction.resetTransactionCounter();
 
         System.out.println("Creating bank instance...");
