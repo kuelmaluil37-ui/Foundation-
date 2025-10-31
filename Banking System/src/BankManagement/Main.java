@@ -30,7 +30,7 @@ public class Main {
         System.out.println();
 
         System.out.println("=== VERIFYING UNIQUE ACCOUNT NUMBERS ===");
-        System.out.println("Account J 2255J3344e: " + accountJ.getAccountNumber());
+        System.out.println("Account J 2255J3344e: " + accountJ.getAccountNumber( reset));
         System.out.println("Account M 3344M5567e: " + accountM.getAccountNumber());
         System.out.println("Account W 334466W68e: " + accountW.getAccountNumber());
         System.out.println("Account A 667890A43e: " + accountA.getAccountNumber());
