@@ -1,6 +1,6 @@
 public abstract class Vehicle {
     protected String make;
-    protected String model;
+    String model;
     protected int year;
     protected double basePrice;
 
