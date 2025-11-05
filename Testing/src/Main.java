@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         Vehicle car = new Car("Toyota", "Camry", 2023, 25000, 4, "Gasoline");
-        Vehicle motorcycle = new Motorcycle("Harley-Davidson", "Sportster", 2023, 12000, "Cruiser", 1200);
+        Vehicle motorcycle = new Motorcycle("Davidson", "Sportster", 2023, 12000, "Cruiser", 1200);
         Vehicle truck = new Truck("Ford", "F-150", 2023, 35000, 1.5, 2);
 
         System.out.println("=== VEHICLE DETAILS ===");
