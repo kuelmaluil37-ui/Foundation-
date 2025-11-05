@@ -1,6 +1,6 @@
 public class Car extends Vehicle {
     private int numDoors;
-    private String fuelType;
+    String fuelType;
 
     public Car(String make, String model, int year, double basePrice,
                int numDoors, String fuelType) {
