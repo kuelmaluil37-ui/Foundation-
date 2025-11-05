@@ -1,5 +1,5 @@
 public class Motorcycle extends Vehicle {
-    private String type;
+    String type;
     private int engineCapacity;
 
     public Motorcycle(String make, String model, int year, double basePrice,
