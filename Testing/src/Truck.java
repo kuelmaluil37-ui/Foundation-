@@ -1,5 +1,5 @@
 public class Truck extends Vehicle {
-    private double cargoCapacity;
+    double cargoCapacity;
     private int numAxles;
 
     public Truck(String make, String model, int year, double basePrice,
